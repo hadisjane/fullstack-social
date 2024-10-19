@@ -1,0 +1,227 @@
+.rightbar {
+	flex: 3.5;
+}
+
+.rightbarWrapper {
+	padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+	display: flex;
+	align-items: center;
+}
+
+.birthdayImg {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.birthdayText {
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.rightbarAd {
+	width: 100%;
+	border-radius: 10px;
+	margin: 30px 0;
+}
+
+.rightbarTitle {
+	margin-bottom: 20px;
+}
+
+.rightbarFriendList {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.rightbarTitle {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.rightbarInfo {
+	margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+	margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+	font-weight: 500;
+	margin-right: 5px;
+	color: #555;
+}
+
+.rightbarInfoValue {
+	font-weight: 300;
+}
+
+.rightbarFollowings {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: start;
+}
+
+.rightbarFollowing {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	align-items: center;
+}
+
+.rightbarFollowingImg {
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.rightbarFollowButton {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: #1872f2;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.rightbarFollowButton:hover {
+	opacity: 0.8;
+}
+
+.rightbarFollowButton:focus {
+	outline: none;
+}
+
+.rightbarSendMessageButton {
+	margin-bottom: 10px;
+	gap: 5px;
+	border: none;
+	background-color: #1872f2;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.rightbarSendMessageButton:hover {
+	opacity: 0.8;
+}
+
+.rightbarSendMessageButton:focus {
+	outline: none;
+}
+
+.rightbarEditButton {
+	margin-bottom: 10px;
+	gap: 5px;
+	border: none;
+	background-color: #1872f2;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.rightbarEditButton:hover {
+	opacity: 0.8;
+}
+
+.rightbarEditButton:focus {
+	outline: none;
+}
+
+.rightbarPopup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rightbarPopupWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.rightbarPopupTitle {
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.rightbarPopupInput {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 120px;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.rightbarPopupInput:focus {
+	outline: none;
+}
+
+.rightbarPopupButtons {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px
+}
+
+.rightbarPopupButton {
+	margin-top: 10px;
+	border: none;
+	background-color: #1872f2;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.rightbarPopupButton:hover {
+	opacity: 0.8;
+}
+
+.rightbarPopupButton:last-child {
+	gap: 3px;
+}
